@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    background-image: url("./slider2\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 19px 0;
+}
+
+header .container h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ota h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+    padding: 18px 20px;
+    background-color: #76B900;
+    border: none;
+    margin-top: 40px;
+}
+
+.kardlar {
+    padding: 50px 0;
+}
+
+.kardlar h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.card {
+    width: 290px;
+    height: 302px;
+    border: 2px solid #76B900;
+    box-shadow: 0px 17px 27px -4px #00000040;
+    text-align: center;
+}
+
+.ota {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+    padding: 25px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.hero-text {
+    margin-right: 200px;
+}
+
+.hero img {
+    margin-left: 100px;
+}
+
+.hero-text h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #67B900;
+}
+
+.hero-text p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.ota2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.ota2 h2 {
+    color: #666666;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
